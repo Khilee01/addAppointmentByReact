@@ -1,0 +1,152 @@
+.whiteBgContainer {
+  width: 90vw;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+}
+.appointmentHg {
+  color: #171f46;
+  text-align: left;
+}
+
+.addButton {
+  margin-top: 17px;
+  margin-left: 2px;
+  padding: 10px;
+  background-color: #8b5cf6;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  width: 90px;
+  margin-bottom: 30px;
+}
+
+.appointmentImage {
+  height: 30vh;
+  width: 30vw;
+}
+.inputAndLabel {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+label {
+  font-size: 15px;
+  color: #b5b7c4;
+}
+input {
+  color: #171f46;
+  border-color: #b5b7c4;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.appointHg {
+  color: #171f46;
+  font-size: x-large;
+}
+.filledButton {
+  margin-top: 15px;
+  background-color: #8b5cf6;
+  border: none;
+  color: #ffffff;
+  height: 40px;
+  border-radius: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.CommonButton {
+  margin-top: 15px;
+  background-color: transparent;
+  color: #8b5cf6;
+  border-radius: 20px;
+  height: 40px;
+  border: 1px solid #8b5cf6;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+@media (max-width: 767px) {
+  .formwithImage {
+    margin: auto;
+    width: 86vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #b5b7c4;
+  }
+  .form {
+    width: 86vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .appointmentImage {
+    display: none;
+  }
+  .form {
+    order: 2;
+  }
+  .appointmentImage {
+    order: 1;
+  }
+  ul {
+    display: flex;
+    width: 84vw;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+  }
+  .allignheading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 86vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .formwithImage {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #b5b7c4;
+  }
+  .appointmentImage {
+    height: 30vh;
+    width: 30vw;
+  }
+  ul {
+    display: flex;
+    width: 84vw;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style: none;
+    flex-wrap: wrap;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    order: 1;
+  }
+  .appointmentImage {
+    order: 2;
+  }
+  .allignheading {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    justify-content: space-between;
+  }
+}
